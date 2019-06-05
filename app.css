@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+body {
+    font-family: 'Muli', sans-serif;
+    background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+}
+.main-content {
+    position: relative;
+    top: 200px;
+    width: 63%;
+    margin: auto;
+    background: white;
+    padding: 13px;
+    border-radius: 10px;
+}
+
+.community {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 63%;
+}
+
+input.login {
+    padding: 7px 7px 7px 0;
+    border: none;
+    border-bottom: 3px solid #afafaf;
+    width: 100%;
+}
+input.login.error {
+    border-color: orangered;
+}
+
+
+button.btn {
+    background-color: #393939;
+    color: #fff;
+    padding: 10px 25px 10px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+    transition-duration: .2s;
+}
+
+button.btn:hover:enabled {
+    background-color: #2196f3;
+    cursor: pointer;
+}
+
+button.btn:disabled {
+    opacity: .2;
+}
+label {
+}
+
+.left-info {
+   margin-top:60px;
+   text-align: center;
+}
+.left-info p {
+    margin-top: 10px;
+}
+
+
+/** REMOVE OUTLINE **/
+button:focus, input:focus, label:focus {
+    outline: none;
+}
+
+.bg-info {
+    background-color: indianred;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #fff;
+}
+.bg-info strong {
+    color: #fff;
+}
+
+
+.link-pass {
+    font-size: .8em;
+    margin-bottom: 8px;
+}
+
+.p-60 {
+    padding: 60px;
+}
+
+h4.title.is-text-small {
+    font-size: 1.5em;
+}
+
