@@ -47,7 +47,7 @@ let calc = Vue.component('app-login', {
                     <div class="column">
                         <div class="field">
                             <p v-if="!register"><a class="link-pass is-pulled-right" href="">Mot de passe oublié?</a></p>
-                            <button :disabled="username.length==0 || password.length==0" v-if="!register" @click="login" class="btn is-pulled-right"><span v-if="loading">...</span><span v-else>Se connecter</span></button>
+                            <button :disabled="username.length==0 || password.length==0" v-if="!register" @click="login" class="btn is-pulled-right">Se connecter</button>
                             <button :disabled="username.length==0 || password.length==0" v-else class="btn is-pulled-right">Creer mon compte</button>
                         </div>
                     </div>
